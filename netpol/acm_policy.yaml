@@ -44,7 +44,7 @@ spec:
           severity: high
           namespaceSelector:
             include:
-              - default
+              - book-import
           object-templates:
             - complianceType: musthave
               objectDefinition:
