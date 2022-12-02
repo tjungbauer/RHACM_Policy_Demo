@@ -33,7 +33,7 @@ spec:
                   ingress:
                     - from:
                         - podSelector: {}
-                  podSelector: null
+                  podSelector: {}
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy
