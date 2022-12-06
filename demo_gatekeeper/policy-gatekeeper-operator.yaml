@@ -66,6 +66,7 @@ apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-gatekeeper-operator
+  namespace: rhacm-policies
 placementRef:
   name: placement-policy-gatekeeper-operator
   kind: PlacementRule
@@ -79,6 +80,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-policy-gatekeeper-operator
+  namespace: rhacm-policies
 spec:
   clusterConditions:
     - status: "True"
